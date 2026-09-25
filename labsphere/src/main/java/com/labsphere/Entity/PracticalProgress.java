@@ -2,10 +2,16 @@ package com.labsphere.Entity;
 
 
 import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalDateTime;
 
 @Entity
+@Setter
+@Getter
+@NoArgsConstructor
 @Table(name = "practical_progress")
 public class PracticalProgress {
 

@@ -1,7 +1,8 @@
 package com.labsphere.Entity;
 
 public enum PracticalStatus {
-   COMPLETED,
+   STARTED,
+    COMPLETED,
     AVAILABLE,
     LOCKED
 }

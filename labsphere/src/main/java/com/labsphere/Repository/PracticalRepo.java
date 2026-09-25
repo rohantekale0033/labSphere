@@ -4,5 +4,5 @@ package com.labsphere.Repository;
 import com.labsphere.Entity.Practical;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface PracticalRepo extends JpaRepository<Practical,Integer> {
+public interface PracticalRepo extends JpaRepository<Practical,Long> {
 }
